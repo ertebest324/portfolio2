@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>DavidDev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Study</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="menuNav nav grid-3-cols">
+        <span class="subMenuNav">
+          <p class="logo">DavidDev</p>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- Start Hamburger menu -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <!-- End Hamburger menu -->
+          <span class="navSocial">
+            <img class="youtubeImg" src="img/youtube.png" alt="" />
+            <img src="img/github.png" alt="" />
+          </span>
+        </span>
+      </section>
+
+      <section class="contact">
+        <h1>Contact</h1>
+        <p>
+          If you're looking for a developer who doesn't just talk the talk, but
+          walks the walk and gets things done, then we should definitely chat.
+        </p>
+      </section>
+
+      <section class="form">
+        <form action="#" method="post" class="form">
+          <!-- <label for="name">Name:</label> -->
+          <input
+            class="input"
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Name"
+          />
+          <!-- 
+          <label for="email">Email:</label> -->
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="email"
+          />
+
+          <!-- <label for="message">Message:</label> -->
+          <textarea
+            class="textArea"
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+            placeholder="Type your message here..."
+          ></textarea>
+
+          <input type="submit" value="Send message" class="submitForm" />
+        </form>
+      </section>
+      <footer>
+        <!-- <span class="spanFooter text-align-Items">
+          <img src="img/youtube.png" alt="" />
+          <img src="img/github.png" alt="" />
+        </span> -->
+        <p class="copyright">
+          Copyright © All Rights Reserved By <strong>David Alvarez</strong>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
